@@ -1,0 +1,11 @@
+body{
+    background-color: #9c9c9c;
+    color: #101922;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    width: 104px;
+    height: 50px;
+}
