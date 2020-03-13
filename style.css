@@ -1,18 +1,25 @@
 body{
-    background-color: #9c9c9c;
+    background-image: linear-gradient(45deg ,#ffae00ee ,#0614d1fd) ,url(asset/background.jpg);
     color: #101922;
     font-family: Arial, Helvetica, sans-serif;
 }
+.heading{
+    margin: 1%;
+    text-align: center;
+    font-size: 450%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
 .calculator{
-    margin: 5% 0;
-    padding: 0;
-    border: 5px #101922 solid;
-    background-color: #4f2f84;
+    margin: 2% 0 0 0;
+    padding: 1%;
+    border: 5px #ffff009d solid;
+    background-color: #6930c5a9;
 }
 
 .res,.resh{
     background-color: #0000003a !important;
-    height: 10vh;
+    height: 8vh;
     text-align: right;
     border: none;
     border-radius: 0;
@@ -25,13 +32,11 @@ body{
     color: #000 !important;
 }
 .key-row1{
-    border: 5px #ff0 solid;
     margin: 10px 0;
     padding: 0;
     display: flex;
 }
 .full-button{
-    background-color: #b00;
     margin: 5px 0;
     padding: 10px 0;
 }
@@ -43,17 +48,15 @@ body{
     padding: 3% 1%;
     width: 17%;
     height: 22%;
-    background-color: #fff;
+    background-color: #5080f0b7;
 }
 .pls-eql{
-    background-color: #0dd;
     position: relative;
     bottom: 24%;
     height: 46%;
     margin: 0.8%;
 }
 .botm{
-    background-color: #aa0;
     position: relative;
     top: -12%;
 }
@@ -68,17 +71,14 @@ body{
         padding: 3% 1%;
         width: 17%;
         height: 22%;
-        background-color: #fff;
     }   
     .pls-eql{
-        background-color: #0dd;
         position: relative;
         bottom: 24%;
         height: 46%;
         margin: 0.8%;
     }
     .botm{
-        background-color: #aa0;
         position: relative;
         top: -21;
     }
