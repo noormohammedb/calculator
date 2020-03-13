@@ -7,20 +7,18 @@ body{
     margin: 5% 0;
     padding: 0;
     border: 5px #101922 solid;
+    background-color: #4f2f84;
 }
 .key-row1{
     border: 5px #ff0 solid;
     margin: 10px 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    width: 100% ;
 }
 .full-button{
     background-color: #b00;
     margin: 5px 0;
     padding: 10px 0;
-    width: 100% ;
 }
 .btn{
     position: relative;
@@ -36,10 +34,8 @@ body{
     background-color: #0dd;
     position: relative;
     bottom: 24%;
-    /* left: 3%; */
-    height: 45%;
+    height: 46%;
     margin: 0.8%;
-    /* margin-bottom: 2%; */
 }
 .botm{
     background-color: #aa0;
@@ -49,11 +45,6 @@ body{
 
 @media only screen and (max-width:460px)
 {
-    /* .key-row1{
-        padding: 0 1%;
-        display: flex;
-        
-    } */
     .btn{
         position: relative;
         left: 1%;
@@ -68,7 +59,7 @@ body{
         background-color: #0dd;
         position: relative;
         bottom: 24%;
-        height: 45%;
+        height: 4%;
         margin: 0.8%;
     }
     .botm{
