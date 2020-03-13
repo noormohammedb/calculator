@@ -55,10 +55,13 @@ body{
         
     }
     .btn{
-        margin: 0.8% 0;
+        position: relative;
+        left: 1%;
+        right: 1%;
+        margin: 0.8% ;
         padding: 3% 1%;
         width: 17%;
-        height: auto;
+        height: 22%;
         background-color: #fff;
     }   
 }
