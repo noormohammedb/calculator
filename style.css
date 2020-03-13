@@ -12,11 +12,14 @@ body{
     border: 5px #ff0 solid;
     margin: 10px 0;
     padding: 0;
+    /* display: flex;
+    justify-content: center; */
 }
 .full-button{
     background-color: #b00;
     margin: 5px 0;
     padding: 10px 0;
+    text-align: center;
 
 }
 .btn{
