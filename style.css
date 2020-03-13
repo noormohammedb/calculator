@@ -12,22 +12,39 @@ body{
     border: 5px #ff0 solid;
     margin: 10px 0;
     padding: 0;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
+    width: 100% ;
 }
 .full-button{
     background-color: #b00;
     margin: 5px 0;
     padding: 10px 0;
-    text-align: center;
-
+    width: 100% ;
 }
 .btn{
-    margin: 0.8%;
+    position: relative;
+    left: 1%;
+    right: 1%;
+    margin: 0.8% ;
     padding: 3% 1%;
     width: 17%;
-    height: auto;
+    height: 22%;
     background-color: #fff;
+}
+.pls-eql{
+    background-color: #0dd;
+    position: relative;
+    bottom: 24%;
+    /* left: 3%; */
+    height: 45%;
+    margin: 0.8%;
+    /* margin-bottom: 2%; */
+}
+.botm{
+    background-color: #aa0;
+    position: relative;
+    top: -12%;
 }
 
 @media only screen and (max-width:460px)
