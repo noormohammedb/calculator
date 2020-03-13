@@ -9,6 +9,21 @@ body{
     border: 5px #101922 solid;
     background-color: #4f2f84;
 }
+
+.res,.resh{
+    background-color: #0000003a !important;
+    height: 10vh;
+    text-align: right;
+    border: none;
+    border-radius: 0;
+}
+.resh{
+    font-size: 100%;
+}
+.res{
+    font-size: 220%;
+    color: #000 !important;
+}
 .key-row1{
     border: 5px #ff0 solid;
     margin: 10px 0;
