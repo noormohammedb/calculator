@@ -74,12 +74,12 @@ body{
         background-color: #0dd;
         position: relative;
         bottom: 24%;
-        height: 4%;
+        height: 46%;
         margin: 0.8%;
     }
     .botm{
         background-color: #aa0;
         position: relative;
-        top: -12%;
+        top: -21;
     }
 }
