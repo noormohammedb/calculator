@@ -16,7 +16,7 @@ body{
 }
 .calculator{
     margin: 0;
-    padding: 1%;
+    padding: 1% 0 10px 0;
     border: 1px #102b48c8  solid;
     background-color: #43566480;
 }
@@ -36,20 +36,20 @@ body{
 }
 .resh{
     font-size: 150%;
-    color: #ffffffe7;
+    color: #ffffffe7 !important;
 }
 .res{
     font-size: 300%;
     color: #ffffffee !important;
 }
 .key-row1{
-    margin: 10px 0;
+    margin: 0;
     padding: 0;
     display: flex;
 }
 .full-button{
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
 }
 .btn{
     background-color: #88b9c881;
