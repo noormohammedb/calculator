@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(45deg ,#ffae00ee ,#0614d1fd) ,url(asset/background.jpg);
+    background-image: linear-gradient(135deg ,#102b48c8 ,#0e314dc8 ,#198badc8 ,#5fc3dbc8 ,#bed0dac8 ,#9ab1b9c8 ,#435664c8 , #2c3e4ac8,#1b232ec8) ,url(asset/background.jpg);
     color: #101922;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,7 +19,9 @@ body{
 
 .res,.resh{
     background-color: #0000003a !important;
-    height: 8vh;
+    margin: 0 2%;
+    width: 94%;
+    height: 50px;
     text-align: right;
     border: none;
     border-radius: 0;
@@ -60,7 +62,12 @@ body{
     position: relative;
     top: -12%;
 }
-
+.footer{
+    margin: 2% 0 0 0;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
 @media only screen and (max-width:460px)
 {
     .btn{
