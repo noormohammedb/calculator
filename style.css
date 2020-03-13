@@ -49,11 +49,11 @@ body{
 
 @media only screen and (max-width:460px)
 {
-    .key-row1{
+    /* .key-row1{
         padding: 0 1%;
         display: flex;
         
-    }
+    } */
     .btn{
         position: relative;
         left: 1%;
@@ -64,4 +64,16 @@ body{
         height: 22%;
         background-color: #fff;
     }   
+    .pls-eql{
+        background-color: #0dd;
+        position: relative;
+        bottom: 24%;
+        height: 45%;
+        margin: 0.8%;
+    }
+    .botm{
+        background-color: #aa0;
+        position: relative;
+        top: -12%;
+    }
 }
