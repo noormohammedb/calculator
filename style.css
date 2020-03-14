@@ -45,8 +45,9 @@ body{
     color: #ffffffe7 !important;
 }
 .res{
-    font-size: 300%;
+    font-size: 280%;
     color: #ffffffee !important;
+    padding-bottom: 10px;
 }
 .key-row1{
     margin: 0;
@@ -68,6 +69,7 @@ body{
     height: 22%;
     color: #ffffffc8;
     font-size: 180%;
+    border-radius: 20px;
 }
 .btn:hover{
     background-color: #88b9c8d5;
