@@ -10,6 +10,11 @@ body{
     color: #101922;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body,.calculator::-webkit-scrollbar{
+    display: none !important;
+    background: #fff;
+    scrollbar-width: none;
+}
 .heading{
     margin: 1%;
     text-align: center;
@@ -19,10 +24,11 @@ body{
 }
 .calculator{
     margin: 0;
-    padding: 30px 0 10px 0;
-    border: 1px #102b48c8  solid;
+    padding: 10px 0 10px 0;
     background-color: #43566480;
     height: 100%;
+    border: 0.1px #102b48c8  solid;
+    overflow-x: hidden ! important;
 }
 
 .res,.resh{
@@ -53,7 +59,7 @@ body{
 }
 .full-button{
     margin: 0;
-    padding: 10px 0 0 0;
+    padding: 0;
 }
 .btn{
     background-color: #88b9c881;
@@ -64,8 +70,18 @@ body{
     padding: 2% 0;
     width: 17%;
     height: 22%;
-    color: #fff;
+    color: #ffffffc8;
     font-size: 180%;
+}
+.btn:hover{
+    background-color: #88b9c8d5;
+    color: #ffffff;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.btn:active{
+    background-color: #88b9c8 !important;
 }
 .pls-eql{
     position: relative;
