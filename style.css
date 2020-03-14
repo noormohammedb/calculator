@@ -10,11 +10,7 @@ body{
     color: #101922;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body,.calculator::-webkit-scrollbar{
-    display: none !important;
-    background: #fff;
-    scrollbar-width: none;
-}
+
 .heading{
     margin: 1%;
     text-align: center;
@@ -28,7 +24,7 @@ body,.calculator::-webkit-scrollbar{
     background-color: #43566480;
     height: 100%;
     border: 0.1px #102b48c8  solid;
-    overflow-x: hidden ! important;
+    /* overflow-x: hidden ! important; */
 }
 
 .res,.resh{
