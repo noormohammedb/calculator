@@ -2,7 +2,7 @@ console.log('JavaScript Running');
 $(function(){
     console.log("jQuery Running");
 
-    $("#history").val("his");
+    $("#history").val();
 
     
 
