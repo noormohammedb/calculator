@@ -50,7 +50,12 @@ $(function () {
 
     $("#trim")[0].addEventListener("click", trimEvent => {
         data = $("#screen").val()
-        $("#screen").val(data.slice(0, -1))
+        if (data) {
+            $("#screen").val(data.slice(0, -1))
+        } else {
+            $("#screen").val($("#history").val())
+            $("#history").val("")
+        }
     })
 
 })
