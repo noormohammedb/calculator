@@ -3,7 +3,6 @@ console.log('JavaScript Running');
 $(function () {
     console.log("jQuery Running");
     num = $("[data-num='1']");
-    console.log(num);
     num.toArray().forEach(numberButtonElement => {
         numberButtonElement.addEventListener("click", numEvent => {
             console.log(numEvent);
@@ -31,7 +30,9 @@ $(function () {
         $("#screen").val(val);
     })
 
-
+    $("#clear")[0].addEventListener("click", clearEvent => {
+        $("#screen").val("");
+    })
 
 })
 // var his;
