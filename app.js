@@ -1,4 +1,4 @@
-let num, oper, data;
+let num, oper, data, periodFlag = true;
 console.log('JavaScript Running');
 $(function () {
     console.log("jQuery Running");
@@ -11,11 +11,17 @@ $(function () {
         })
     });
 
+    $("[data-period='1']")[0].addEventListener("click", numEvent => {
+        if (periodFlag) {
+            $("#screen").val($("#screen").val() + numEvent.target.innerText)
+            periodFlag = false;
+        }
+    })
 
     oper = $("[data-oper='1']");
     oper.toArray().forEach(operatorButtonElement => {
         operatorButtonElement.addEventListener("click", operEvent => {
-            console.log(operEvent.target.id);
+            periodFlag = true;
             if (($("#history").val() && $("#screen").val())) {
                 $("#history").val(eval($("#history").val() + $("#screen").val()) + operEvent.target.id)
                 $("#screen").val("");
@@ -45,6 +51,7 @@ $(function () {
     $("#clear")[0].addEventListener("click", clearEvent => {
         $("#history").val("");
         $("#screen").val("");
+        periodFlag = true;
     })
 
 
