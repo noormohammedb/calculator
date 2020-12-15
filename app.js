@@ -1,19 +1,19 @@
 console.log('JavaScript Running');
-$(function(){
+$(function () {
     console.log("jQuery Running");
 
     $("#history").val();
 
-    
 
-    
-  
-    
+
+
+
+
 
 
 })
 // var his;
-function display(res){
+function display(res) {
     var his = $("#screen").val();
     $("#screen").val(res);
     console.log("result print" + res);
