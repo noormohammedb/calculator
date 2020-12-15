@@ -16,8 +16,20 @@ $(function () {
     oper.toArray().forEach(operatorButtonElement => {
         operatorButtonElement.addEventListener("click", operEvent => {
             console.log(operEvent.target.id);
-            $("#history").val($("#screen").val() + operEvent.target.id)
-            $("#screen").val("");
+            if (($("#history").val() && $("#screen").val())) {
+                $("#history").val(eval($("#history").val() + $("#screen").val()) + operEvent.target.id)
+                $("#screen").val("");
+                console.log("hist");
+            } else if (($("#history").val() && !$("#screen").val())) {
+                console.log("homst");
+                data = $("#history").val();
+                let ndata = data.slice(0, -1)
+                $("#history").val(ndata + operEvent.target.id)
+            } else if ($("#screen").val()) {
+                console.log("host");
+                $("#history").val($("#screen").val() + operEvent.target.id)
+                $("#screen").val("");
+            }
 
         })
     });
@@ -38,7 +50,6 @@ $(function () {
 
     $("#trim")[0].addEventListener("click", trimEvent => {
         data = $("#screen").val()
-
         $("#screen").val(data.slice(0, -1))
     })
 
