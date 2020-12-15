@@ -18,6 +18,10 @@ body {
    background-position: 100%;
    background-size: cover;
    size: 100%;
+   display: flex;
+   /* flex-direction: row; */
+   justify-content: center;
+   align-items: center;
    height: 100vh !important;
    color: #101922;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,14 +30,14 @@ body {
 .heading {
    margin: 1%;
    text-align: center;
-   font-size: 450%;
+   font-size: 4rem;
    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
    font-weight: 900;
 }
 .calculator {
    margin: 0;
-   padding: 10px 0 10px 0;
+   padding: 10px 2px 10px 0;
    background-color: #43566480;
    height: 100%;
    border: 0.1px #102b48c8 solid;
@@ -45,7 +49,7 @@ body {
    background-color: #0000003a !important;
    margin: 0 2%;
    padding: 0 30px;
-   width: 94%;
+   width: 96%;
    height: 50px;
    text-align: right;
    border: none;
