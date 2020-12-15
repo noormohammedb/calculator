@@ -1,4 +1,4 @@
-let num, oper;
+let num, oper, data;
 console.log('JavaScript Running');
 $(function () {
     console.log("jQuery Running");
@@ -31,15 +31,15 @@ $(function () {
     })
 
     $("#clear")[0].addEventListener("click", clearEvent => {
+        $("#history").val("");
         $("#screen").val("");
     })
 
+
+    $("#trim")[0].addEventListener("click", trimEvent => {
+        data = $("#screen").val()
+
+        $("#screen").val(data.slice(0, -1))
+    })
+
 })
-// var his;
-// function display(res) {
-//     var his = $("#screen").val();
-//     $("#screen").val(res);
-//     console.log("result print" + res);
-//     $("#history").val(his);
-//     console.log("history print " + his);
-// }
